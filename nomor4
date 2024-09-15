@@ -1,0 +1,18 @@
+program alamat;
+var
+jalan:string;
+no,kode_pos:integer;
+kota:string;
+begin
+  write('masukkan jalan:');
+  readln(jalan);
+  write('masukkan nomor:');
+  readln(no);
+  write('masukkan kota;');
+  readln(kota);
+  write('masukkan kode pos:');
+  readln(kode_pos);
+
+  writeln;
+  writeln('alamat:jalan',jalan,'no.',no,'',kota,'',kode_pos);
+end.
